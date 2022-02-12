@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get/get_state_manager/src/simple/get_state.dart';
 import 'package:getxlearning/GetXControllerLifecycleMethods/controller/example_count_controller.dart';
 
 class GetxControllerLifecycleMethodsScreen extends StatelessWidget {
-  ExampleCountController controller = Get.put(ExampleCountController());
+  final ExampleCountController controller = Get.put(ExampleCountController());
 
   @override
   Widget build(BuildContext context) {

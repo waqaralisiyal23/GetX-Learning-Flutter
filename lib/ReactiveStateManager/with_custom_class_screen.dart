@@ -3,6 +3,7 @@ import 'package:get/get.dart';
 import 'package:getxlearning/ReactiveStateManager/helpers/student.dart';
 import 'package:getxlearning/ReactiveStateManager/helpers/student2.dart';
 
+// ignore: must_be_immutable
 class WithCustomClassScreen extends StatelessWidget {
   Student student = Student();
   Rx<Student2> student2 = Student2(name: 'Waqar', age: 21).obs;

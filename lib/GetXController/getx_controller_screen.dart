@@ -3,7 +3,7 @@ import 'package:get/get.dart';
 import 'package:getxlearning/GetXController/controllers/my_controller.dart';
 
 class GetxControllerScreen extends StatelessWidget {
-  MyController myController = Get.put(MyController());
+  final MyController myController = Get.put(MyController());
 
   @override
   Widget build(BuildContext context) {

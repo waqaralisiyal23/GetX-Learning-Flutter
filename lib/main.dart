@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:getxlearning/AllBindings/binding_example_screen_controller_binding.dart';
 import 'package:getxlearning/BottomSheet/bottom_sheet_screen.dart';
 import 'package:getxlearning/DependecyInjection/dependecy_injection_screen.dart';
 import 'package:getxlearning/Dialog/dialog_screen.dart';

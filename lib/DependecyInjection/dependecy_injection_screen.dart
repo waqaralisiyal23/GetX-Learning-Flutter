@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-import 'package:getxlearning/DependecyInjection/controllers/dependency_injection_controller.dart';
 
 class DependecyInjectionScreen extends StatelessWidget {
   @override

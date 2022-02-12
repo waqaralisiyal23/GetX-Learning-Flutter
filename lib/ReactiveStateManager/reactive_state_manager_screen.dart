@@ -35,10 +35,11 @@ Other ways of making the variable Rx:
   final user = Rx<User>();
 */
 
+// ignore: must_be_immutable
 class ReactiveStateManagerScreen extends StatelessWidget {
-  RxInt _count = 0.obs;
+  RxInt count = 0.obs;
 
-  void _increment() => _count++;
+  void _increment() => count++;
 
   @override
   Widget build(BuildContext context) {
@@ -52,7 +53,7 @@ class ReactiveStateManagerScreen extends StatelessWidget {
             Expanded(child: Container()),
             Obx(
               () => Text(
-                'Count Value is $_count',
+                'Count Value is $count',
                 style: TextStyle(color: Colors.black, fontSize: 18.0),
               ),
             ),
